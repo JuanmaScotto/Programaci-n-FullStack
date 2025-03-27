@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(4, 4, 68);
+    color: antiquewhite;
+    height: 6rem;
+    line-height: 6rem; 
+    display: flex;
+}
+
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 6rem; 
+}
+
+#titles {
+    position: absolute;
+    right: 20px; 
+    top: 0; 
+    height: 100%; 
+    line-height: 6rem;
+}
+
+#titles a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+body{ 
+    background-image: url(a-wide-illustration-of-cybersecurity-the_rbADH5ryTn6AJaAYi3H86g_8fmANjxdToqdwuyE8Zo1qQ.jpeg);
+}
+
+.body-container{
+    background-image: url(a-wide-illustration-of-cybersecurity-the_rbADH5ryTn6AJaAYi3H86g_8fmANjxdToqdwuyE8Zo1qQ.jpeg);
+    opacity: 0,9;
+}
+
+
+
+h2{
+    margin-top: 2rem;
+    color: antiquewhite;
+    text-decoration: underline;
+    padding-left: 2rem;
+}
+
+#txt1{
+    width: 500px;
+    margin-top: 1rem;
+    background-color: rgb(4, 4, 68);
+    color: antiquewhite;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#txt2{
+    width: 300px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    color: antiquewhite;
+    background-color: rgb(4, 4, 68);
+    border-radius: 15px;
+}
+
+#txt3{
+    width: 300px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    color: antiquewhite;
+    background-color: rgb(4, 4, 68);
+    border-radius: 15px;
+}
+
+ul{
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+li{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ol{
+    margin-left: 2rem;
+}
+
+#txt4{
+    width: 500px;
+    margin-top: 1rem;
+    background-color: rgb(4, 4, 68);
+    color: antiquewhite;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+#txt5{
+    width: 500px;
+    margin-top: 1rem;
+    background-color: rgb(4, 4, 68);
+    color: antiquewhite;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
