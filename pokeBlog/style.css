@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%; 
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #105ba6;
+    color: #fecc00;
+    height: 6rem;
+    line-height: 6rem;
+    display: flex;
+}
+
+h1{
+    margin-left: 1rem;
+}
+
+.ball{
+    height: 6rem;
+    line-height: 6rem;
+    display: flex;
+    margin: 20px;
+    
+    
+}
+
+.ball img{
+    width: 50px;
+    height: 50px;
+}
+
+#secciones{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 100%;
+    line-height: 6rem;
+}
+
+#secciones a{
+    text-decoration: none;
+    color: #fecc00;
+    margin-left: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal{
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 2px black;
+    margin: 2rem;
+}
+
+.clase{
+    height: 50%;
+    width: 50%;
+    color: black;
+    font-size: 18px;
+    margin-left: 1rem;
+    padding-left: .5rem;
+}
+
+.fuego{
+    background-color: #df945e;
+}
+
+.fuego1{
+    width: 50%;
+    height: 100%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fuego1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.agua{
+    background-color: #90aacd;
+}
+
+.agua1{
+    width: 50%;
+    height: 100%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agua1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.planta{
+    background-color: #99c9ab;
+}
+
+.planta1{
+    width: 50%;
+    height: 100%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planta1 img{
+    width: 250px;
+    height: 250px;
+}
+
+h2{
+    margin-left: 1rem;
+}
+
+h3{
+    margin-left: 1rem;
+}
+
+p{
+    margin-left: 1rem;
+}
+
+li{
+    margin-left: 2rem;
+}
+
+.evoluciones{
+    height: 400px;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flecha{
+    width: 50px;
+    height: 50px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
