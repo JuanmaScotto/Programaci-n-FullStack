@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+header{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-image: url(cafe-granos.jpg);
+    color: white;
+    height: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+body{
+    background-color: antiquewhite  ;
+}
+
+.seccion1{
+    margin-top: 10px;
+    text-align: center;
+    margin-inline: 280px;
+}
+
+.seccion1 h2{
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+.seccion1 i{
+    color: saddlebrown;;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.tipos{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #665858;
+    padding-bottom: 1rem;
+}
+
+.txt{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tipos a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.tipos h4{
+    font-size: 20px;
+    color: rgb(94, 68, 68);
+}
+
+.tipos img{
+    width: 300px;
+    height: 250px;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
