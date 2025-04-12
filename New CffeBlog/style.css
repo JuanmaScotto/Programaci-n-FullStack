@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+header{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-image: url(cafe-granos.jpg);
+    color: white;
+    height: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+body{
+    background-color: antiquewhite  ;
+}
+
+.seccion1{
+    margin-top: 10px;
+    text-align: center;
+    margin-inline: 280px;
+}
+
+.seccion1 h2{
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+.seccion1 i{
+    color: saddlebrown;;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.cartas-cafe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* espacio entre las cajas */
+    padding: 20px;
+}
+
+.tipos {
+    flex: 1 1 calc(33.33% - 40px); /* 3 cajas por fila */
+    max-width: calc(33.33% - 40px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion img {
+    width: 100px; /* o el tamaño que prefieras */
+    height: 100px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+.tipos a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.tipos h4{
+    font-size: 20px;
+    color: rgb(94, 68, 68);
+}
+
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;   
+}
